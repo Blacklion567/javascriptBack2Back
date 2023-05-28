@@ -4,7 +4,7 @@ let Stack = function(){
     this.storage = {}
 }
 // Adds a value onto the end of the stack
-this.pish = function(value){
+this.push = function(value){
     this.storage[this.count] = value;
     this.count++;
 }
