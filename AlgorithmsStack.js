@@ -21,5 +21,5 @@ this.pop = function(){
     return result;
 }
 
-console.log()
+console.log(tack)
 //Returns the value ate the end of the stack
